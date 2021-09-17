@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.clearfix::after {
+    content: "";
+    clear:both;
+    display:table;
+}
+
+
+/* sec01 ----------------------- */
+
+.is-ie .sec01 .swiper-button-prev,
+.is-ie .sec01 .swiper-button-next {
+    height: 35px;
+    top:17px;
+}
+.is-ie .sec01 .swiper-button-prev {
+    background:url(../img/arrow_L.svg);
+}
+
+.is-ie .sec01 .swiper-button-next {
+    background:url(../img/arrow_R.svg);
+}
+
+/* Lineup day1 */
+.ie10 .sec01 .date .day1 .line1 > span {
+    padding:0 35px;
+}
+.ie10 .sec01 .date .day1 .line2 > span {
+    padding:0 13px;
+}
+.ie10 .sec01 .date .day1 .line3 > span {
+    padding:0 22px;
+}
+.ie10 .sec01 .date .day1 .line4 > span {
+    padding:0 12px;
+}
+/* Lineup day2 */
+.ie10 .sec01 .date .day2 .line1 > span {
+    padding:0 48px;
+}
+.ie10 .sec01 .date .day2 .line2 > span {
+    padding:0 55px;
+}
+.ie10 .sec01 .date .day2 .line3 > span {
+    padding:0 19px;
+}
+.ie10 .sec01 .date .day2 .line4 > span {
+    padding:0 29px;
+}
+/* Lineup day3 */
+.ie10 .sec01 .date .day3 .line1 > span {
+    padding:0 33px;
+}
+.ie10 .sec01 .date .day3 .line2 > span {
+    padding:0 65px;
+}
+.ie10 .sec01 .date .day3 .line3 > span {
+    padding:0 8px;
+}
+.ie10 .sec01 .date .day3 .line4 > span {
+    padding:0 17px;
+}
+
+/* sec02 --------------------------- */
+.is-ie .sec02 .noticeSwiper .swiper-button-next::after,
+.is-ie .sec02 .noticeSwiper .swiper-button-prev::after {
+    content:"";
+}
+.is-ie .sec02 .noticeSwiper .swiper-button-prev,
+.is-ie .sec02 .noticeSwiper .swiper-button-next {
+    width:20px;
+    height:35px;
+}
+.is-ie .sec02 .noticeSwiper .swiper-button-prev {
+    background:url(../img/arrow_L.svg) no-repeat;
+}
+.is-ie .sec02 .noticeSwiper .swiper-button-next {
+    background:url(../img/arrow_R.svg) no-repeat;
+}
+
+/* sec03 -------------------------------- */
+.ie10 .sec03 .tab .conBox .tablegroup {
+    height: 810px;
+}
+.ie10 .sec03 .tab .conBox .sun div, 
+.ie10 .sec03 .tab .conBox .moon div,
+.ie10 .sec03 .tab .conBox .dream div {
+    height: 67.5px;
+}
+.ie10 .sec03 .tab .conBox .day01.dream div:nth-child(11) span {
+    line-height: 20px;
+}
+/* sec04 -------------------------------- */
+/* .ie10 .sec04 .site {
+    display:flex;
+    justify-content:center;
+} */
+.ie10 .sec04 .site img {
+    border:none;
+    margin:0 30px;
+}
+.ie10 .sec04 .site a:nth-child(3) > img {
+    margin-bottom:8px;
+}
+/* footer --------------------------------- */
+.ie10 footer {
+    background:#1b1f4b;
+}
+.is-ie footer .footerlogo img {
+    /* width:auto; */
+    height:50px;
+    border:none;
+}
+.is-ie footer .partners {
+    width: 800px;
+}
+.is-ie footer .partners img {
+    border:none;
+}
